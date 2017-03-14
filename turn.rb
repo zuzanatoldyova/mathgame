@@ -10,12 +10,11 @@ module MathGame
     end
 
     def get_answer
-      puts 'insert you answer: '
+      print 'Your answer: '
       @answer = gets.chomp.to_i
     end
 
     def evaluate_answer
-      puts question.answer
       @answer == question.answer
     end
 
